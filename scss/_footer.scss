@@ -1,0 +1,68 @@
+.site-information {
+  background-color: $color-brand-blue;
+  color: #ffffff;
+  padding-inline-start: 21px;
+  margin: 0;
+}
+
+.share-link {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+}
+
+.site-menu {
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  justify-content: space-between;
+  padding: 0;
+
+  a  {
+    color: inherit;
+  }
+}
+
+.logo-link {
+
+  a {
+    color: inherit;
+  }
+  svg {
+    fill: currentColor;
+  }
+}
+
+.patches {
+  fill: $color-brand-blue;
+}
+
+.share-link svg {
+  width: 25px;
+  height: 25px;
+}
+
+.share-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navigation-link {
+  background-color: $color-of-link;
+}
+
+
+@media(min-width: 1114px) {
+  .navigation-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }.logo-link svg {
+    margin-left: -400px;
+  }.share-link {
+    margin-left: 500px;
+  }.site-menu {
+    margin-left: 10px;
+  }
+}

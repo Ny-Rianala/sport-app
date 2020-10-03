@@ -1,0 +1,38 @@
+.more-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+} svg {
+  fill: $color-brand-blue;
+}
+
+.feature {
+  width: 318px;
+  height: 74px;
+  padding-top: 42px;
+  margin-left: 21px;
+  margin-right: 21px;
+  text-align: center;
+}
+
+@media (min-width: 1114px) {
+  .icon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row: 3;
+    grid-gap: 90px;
+  }
+  .more-information {
+  background-color: $color-brand-blue;
+  color: #ffffff;
+}.icon {
+
+  a {
+    color: inherit;
+  }
+  svg {
+    fill: currentColor;
+  }
+ }
+}

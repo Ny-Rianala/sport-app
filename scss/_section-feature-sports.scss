@@ -1,0 +1,81 @@
+.section-feature-sports {
+  position: relative;
+  width: 360px;
+  height: 409px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+
+.latest-information {
+  color: $color-description;
+  text-align: center;
+  padding-top: 57px;
+  padding-bottom: 43px;
+  margin: 0;
+  font-size: 28px;
+}
+
+.information-site {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.information-site a {
+  display: block;
+  height: 75px;
+}
+
+.sport-tv {
+  background-image: url(../img/logo_sports_tv.svg);
+  background-repeat: no-repeat;
+}
+
+.sports {
+  background-image: url(../img/logo_sports_channel.svg);
+  background-repeat: no-repeat;
+}
+
+.first-icons {
+  flex-basis: 50%;
+}
+
+.nbc-sports {
+  background-image: url(../img/logo_nbc_sports.svg);
+  background-repeat: no-repeat;
+}
+
+.second-icons {
+  flex-basis: 30%;
+}
+
+.design-tech {
+  background-image: url(../img/logo_designer_technology.svg);
+  background-repeat: no-repeat;
+}
+
+.third-icons {
+  flex-basis: 40%;
+}
+
+.dn {
+  background-image: url(../img/logo_designer_news.svg);
+  background-repeat: no-repeat;
+}
+
+.second-icons {
+  flex-basis: 30%;
+}
+
+.sky-sports {
+  background-image: url(../img/logo_sky_sports.svg);
+  background-repeat: no-repeat;
+}
+
+.fourth-icons {
+  flex-basis: 100%;
+}
+
+

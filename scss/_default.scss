@@ -1,0 +1,26 @@
+// @import "variables";
+
+body {
+  font-family: "Lato", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  background-color: $background-color-site;
+  margin: 0;
+}
+
+span {
+  visibility: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul > li {
+  list-style: none;
+}
+
+ul a {
+  list-style: none;
+  text-decoration: none;
+}
+
